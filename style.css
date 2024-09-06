@@ -1,0 +1,53 @@
+
+
+.container{
+    text-align: center;    
+    min-height: 100%;
+    min-width: 100%;
+    padding: 15px;
+}
+
+
+.header{
+    background-color: darkorange;
+    color: darkblue;
+}
+
+
+.main{
+    height: 1000px;
+    background: #008080;
+background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 100%);
+}
+
+.justText{
+    font-size: 30px;
+}
+
+.buttonAndInput{
+    padding: 30px;
+}
+ .buttonAndInput input{
+    height: 49px;
+    border-radius: 16px;
+ }
+
+.buttonAndInput button {
+    font-family: helvetica;
+    color: #676A0E ;
+    font-size: 16px;
+    text-shadow: 1px 2px 1px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 11px 13px;
+    border-radius: 16px;
+    border: 2px solid #3866A3;
+    background: #63B8EE;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+  }
+  .buttonAndInput button:hover {
+    color: white;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
+
+  

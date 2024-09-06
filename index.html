@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,25 @@
     <link rel="stylesheet" href="bootstrap.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <div class="container ">
-        <h1>When were you born?</h1>
-        <input type="date" id="dateOfBirth" value="2015-01-01">
-        <button type="button" id="submitButton">submit</button>
-
+    <div class="container header col-12">
+        <h1>Are you an adult?</h1>
     </div>
 
+    <div class="container main">
+        <p class="justText">Enter your birthday.</p>
+        <div class="buttonAndInput">
 
+            <input type="date" id="dateOfBirth" value="2000-01-01">
+            <button type="button" id="submitButton">submit</button>
+        </div>
 
+        <h1 class="verified"></h1>
+    </div>
 
-    
 </body>
 <script type="text/javascript" src="app.js"></script>
+
 </html>
