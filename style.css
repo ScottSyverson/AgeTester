@@ -1,40 +1,37 @@
-
-
-.container{
-    text-align: center;    
+.container {
+    text-align: center;
     min-height: 100%;
     min-width: 100%;
     padding: 15px;
 }
 
-
-.header{
+.header {
     background-color: darkorange;
     color: darkblue;
 }
 
-
-.main{
+.main {
     height: 1000px;
     background: #008080;
-background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 100%);
+    background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFFFF 75%, #005757 100%);
 }
 
-.justText{
+.justText {
     font-size: 30px;
 }
 
-.buttonAndInput{
+.buttonAndInput {
     padding: 30px;
 }
- .buttonAndInput input{
+
+.buttonAndInput input {
     height: 49px;
     border-radius: 16px;
- }
+}
 
 .buttonAndInput button {
     font-family: helvetica;
-    color: #676A0E ;
+    color: #676A0E;
     font-size: 16px;
     text-shadow: 1px 2px 1px #7CACDE;
     box-shadow: 1px 1px 1px #BEE2F9;
@@ -43,11 +40,10 @@ background: linear-gradient(to left, #008080 0%, #FFFFFF 25%, #05C1FF 50%, #FFFF
     border: 2px solid #3866A3;
     background: #63B8EE;
     background: linear-gradient(to top, #63B8EE, #468CCF);
-  }
-  .buttonAndInput button:hover {
+}
+
+.buttonAndInput button:hover {
     color: white;
     background: #468CCF;
     background: linear-gradient(to top, #468CCF, #63B8EE);
-  }
-
-  
+}
